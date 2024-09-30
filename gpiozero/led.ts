@@ -7,7 +7,7 @@ export class LED {
     this.#gpio = new GPIODriver(pin, "out");
   }
 
-  get gpio() {
+  get gpio(): GPIODriver {
     return this.#gpio;
   }
   

@@ -1,0 +1,28 @@
+{
+    "name": "@gfx/epaper",
+    "version": "0.1.0",
+    "exports": {
+        ".": "./mod.ts",
+        "./epd2in13b_V4": "./epd2in13b_V4.ts",
+        "./gpiozero/analogInputDevice": "./gpiozero/analogInputDevice.ts",
+        "./gpiozero/analogLightSensor": "./gpiozero/analogLightSensor.ts",
+        "./gpiozero/button": "./gpiozero/button.ts",
+        "./gpiozero/buzzer": "./gpiozero/buzzer.ts",
+        "./gpiozero/digitalInputDevice": "./gpiozero/digitalInputDevice.ts",
+        "./gpiozero/digitalOutputDevice": "./gpiozero/digitalOutputDevice.ts",
+        "./gpiozero/distanceSensor": "./gpiozero/distanceSensor.ts",
+        "./gpiozero/gpio": "./gpiozero/gpio.ts",
+        "./gpiozero/hardwarePwm": "./gpiozero/hardwarePwm.ts",
+        "./gpiozero/led": "./gpiozero/led.ts",
+        "./gpiozero/ledBoard": "./gpiozero/ledBoard.ts",
+        "./gpiozero/lightSensor": "./gpiozero/lightSensor.ts",
+        "./gpiozero/mcp3008": "./gpiozero/mcp3008.ts",
+        "./gpiozero/motionSensor": "./gpiozero/motionSensor.ts",
+        "./gpiozero/motor": "./gpiozero/motor.ts",
+        "./gpiozero/pwmLed": "./gpiozero/pwmLed.ts",
+        "./gpiozero/pwmOutputDevice": "./gpiozero/pwmOutputDevice.ts",
+        "./gpiozero/robot": "./gpiozero/robot.ts",
+        "./gpiozero/servo": "./gpiozero/servo.ts",
+        "./gpiozero/smoothedInputDevice": "./gpiozero/smoothedInputDevice.ts"
+    }
+}

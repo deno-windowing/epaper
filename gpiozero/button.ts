@@ -9,7 +9,7 @@ export class Button {
   #whenReleased: ButtonCallback | null = null;
   #lastState: 0 | 1 = 0;
 
-  get gpio() {
+  get gpio(): GPIODriver {
     return this.#gpio;
   }
 
